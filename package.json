@@ -1,0 +1,24 @@
+{
+  "name": "free-svg-logo-maker",
+  "version": "1.0.0",
+  "description": "<!-- App description, link to video, setup and usage instructions            --> <h1 text-align=\"center\">Free SVG Logo Maker</h1>",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/braydenday/Free-SVG-Logo-Maker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/braydenday/Free-SVG-Logo-Maker/issues"
+  },
+  "homepage": "https://github.com/braydenday/Free-SVG-Logo-Maker#readme"
+}
