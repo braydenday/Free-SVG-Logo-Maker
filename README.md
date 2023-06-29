@@ -22,7 +22,7 @@ N/A . Application won’t be deployed , its just command line code.
 A command lind application created to generate a FREE new logo through an SVG file
 
 Here is a link to the usage video!
-<url link here for the google drive screencastify recording>
+https://drive.google.com/file/d/1SvHTVHI18OV9BgRn0M5BSRqyEHe1tkTh/view
 
 ## License
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
