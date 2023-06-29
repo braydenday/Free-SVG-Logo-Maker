@@ -45,3 +45,14 @@ const questions = [
         choices: ["Circle", "Square", "Triangle"],
     },
 ];
+
+// function to write the data to the file
+function writeToFile(fileName, data) {
+	console.log("writing [" + data + "] to file [" + fileName + "]")
+    filesystem.writeFile(fileName, data, function (err) {
+        if (err) {
+            return console.log(err);
+        }
+        console.log("successfully created a logo.svg!");
+    });
+}
