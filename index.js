@@ -20,3 +20,28 @@ class Svg {
 
     }
 }
+
+// questions prompting you for text, text color, shape and shape color
+const questions = [
+    {
+        type: "input",
+        name: "text",
+        message: "enter up to (3) characters:",
+    },
+    {
+        type: "input",
+        name: "tcolor",
+        message: "enter a color keyword for the text:",
+    },
+    { // this needs to be shape-color
+        type: "input",
+        name: "scolor",
+        message: "enter a color keyword for the shape:",
+    },
+    { // this needs to be shape
+        type: "list",
+        name: "shape",
+        message: "which shape do you prefer:",
+        choices: ["Circle", "Square", "Triangle"],
+    },
+];
